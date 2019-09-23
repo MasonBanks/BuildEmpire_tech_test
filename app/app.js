@@ -8,7 +8,6 @@ const App = Application.extend({
   podModulePrefix: config.podModulePrefix,
   Resolver
 });
-
 loadInitializers(App, config.modulePrefix);
 
 export default App;

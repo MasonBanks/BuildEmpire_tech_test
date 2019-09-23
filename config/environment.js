@@ -1,4 +1,4 @@
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'ember-movie-list',
     environment,
@@ -21,22 +21,23 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "xyz",
-      authDomain: "YOUR-FIREBASE-APP.firebaseapp.com",
-      databaseURL: "https://YOUR-FIREBASE-APP.firebaseio.com",
-      projectId: "YOUR-FIREBASE-APP",
-      storageBucket: "YOUR-FIREBASE-APP.appspot.com",
-      messagingSenderId: "00000000000",
-      appId: "APP ID HERE"
+      apiKey: "AIzaSyDzqORQintOdfJ0qAdOnVoRUIeVmpIYRek",
+      authDomain: "buildempire-tech-test.firebaseapp.com",
+      databaseURL: "https://buildempire-tech-test.firebaseio.com",
+      projectId: "buildempire-tech-test",
+      storageBucket: "buildempire-tech-test.appspot.com",
+      messagingSenderId: "536123205960",
+      appId: "1:536123205960:web:bbad0814ad57d0d963eb7d"
     },
+
   };
 
   if (environment === 'development') {
-    // ENV.APP.LOG_RESOLVER = true;
-    // ENV.APP.LOG_ACTIVE_GENERATION = true;
-    // ENV.APP.LOG_TRANSITIONS = true;
-    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
-    // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.APP.LOG_RESOLVER = true;
+    ENV.APP.LOG_ACTIVE_GENERATION = true;
+    ENV.APP.LOG_TRANSITIONS = true;
+    ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+    ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
   if (environment === 'test') {
@@ -53,6 +54,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    // ENV.APP = true;
   }
 
   return ENV;

@@ -12,7 +12,7 @@ module('Integration | Component | landing-page', function(hooks) {
 
     await render(hbs`{{landing-page}}`);
 
-    assert.ok(this.$().length);
+    assert.ok(this.element.length);
 
   });
 });

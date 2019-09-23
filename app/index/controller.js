@@ -8,7 +8,8 @@ export default Controller.extend({
         description,
         image
       });
+      alert(title, description, image)
       newMovie.save();
-    } 
+    }
   }
 });

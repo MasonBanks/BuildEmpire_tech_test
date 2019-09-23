@@ -1,0 +1,77 @@
+.__add-movie-form__85279.add-movie-form {
+  color: #424040; }
+  .__add-movie-form__85279.add-movie-form input,
+  .__add-movie-form__85279.add-movie-form button {
+    width: calc(100% - 1rem);
+    height: 4rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border: 0.2rem solid #cccccc;
+    border-radius: 0.5rem; }
+    .__add-movie-form__85279.add-movie-form input:focus,
+    .__add-movie-form__85279.add-movie-form button:focus {
+      border: 0.2rem solid #e91c50;
+      outline: none; }
+  .__add-movie-form__85279.add-movie-form button {
+    margin-top: 2rem;
+    background-color: #e91c50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer; }
+    .__add-movie-form__85279.add-movie-form button:hover, .__add-movie-form__85279.add-movie-form button:focus {
+      background-color: #eb3362;
+      text-decoration: underline; }
+    .__add-movie-form__85279.add-movie-form button:active {
+      background-color: #bf133e; }
+
+.__landing-page__52517 {
+  width: 50rem;
+  height: 80rem;
+  margin: 0 auto; }
+  .__landing-page__52517 .movie-list-header {
+    margin-bottom: 3rem; }
+  .__landing-page__52517 .add-movie-form {
+    margin-top: 3rem; }
+
+.__movie-list-header__20e8e {
+  font-size: 4.5rem;
+  padding: 1rem;
+  text-align: center;
+  color: #e91c50; }
+
+.__movie-list__2f105.movie-list {
+  height: 50rem;
+  overflow-y: auto;
+  list-style: none; }
+  .__movie-list__2f105.movie-list .movie-list-item {
+    margin: 2rem 0; }
+  .__movie-list__2f105.movie-list hr {
+    margin: 1rem;
+    border: none;
+    border-bottom: 0.1rem solid #cccccc; }
+    .__movie-list__2f105.movie-list hr:last-child {
+      display: none; }
+
+.__movie-list__movie-list-item__8f13c .details > h1 {
+  color: #e91c50; }
+
+.__movie-list__movie-list-item__8f13c img {
+  max-width: 30rem;
+  max-height: 30rem; }
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #424040; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  font-size: 1.6rem; }
+
+/*# sourceMappingURL=ember-movie-list.css.map */

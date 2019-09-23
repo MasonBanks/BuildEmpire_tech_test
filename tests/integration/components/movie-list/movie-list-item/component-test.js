@@ -12,6 +12,6 @@ module('Integration | Component | movie-list/movie-list-item', function(hooks) {
 
     await render(hbs`{{movie-list/movie-list-item}}`);
 
-    assert.ok(this.$().length);
+    assert.ok(this.element.length);
   });
 });

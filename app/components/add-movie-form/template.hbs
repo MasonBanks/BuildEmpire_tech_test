@@ -1,7 +1,8 @@
-{{input value=title placeholder='Title..' required=true class='form-title'}}
+{{input value=title placeholder='Title..' required=false class='form-title'}}
 
-{{input value=description placeholder='Description..' required=true class='form-description'}}
+{{input value=description placeholder='Description..' required=false class='form-description'}}
 
-{{input value=image placeholder='Image url..' required=true class='form-image-url'}}
+{{input value=image placeholder='Image url..' required=false class='form-image-url'}}
 
-<button type="submit">Add Movie</button>
+{{!-- <button type="submit">Add Movie</button> --}}
+<button {{action "addMovie" title description image}}>Add Movie</button>

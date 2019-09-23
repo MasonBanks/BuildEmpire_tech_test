@@ -1,0 +1,25 @@
+{
+	"version": 3,
+	"file": "ember-movie-list.css",
+	"sourceRoot": "/Users/YokiStation/Desktop/BuildEmpire/JavaScript_Technical_Exercise/app/styles",
+	"sources": [
+		"../../out-192-broccoli_merge_trees_full_application/app/styles/app.scss",
+		"../../out-192-broccoli_merge_trees_full_application/app/styles/pod-styles.scss",
+		"../../out-192-broccoli_merge_trees_full_application/app/styles/components/add-movie-form/styles.scss",
+		"../../out-192-broccoli_merge_trees_full_application/app/styles/components/landing-page/styles.scss",
+		"../../out-192-broccoli_merge_trees_full_application/app/styles/components/movie-list-header/styles.scss",
+		"../../out-192-broccoli_merge_trees_full_application/app/styles/components/movie-list/styles.scss",
+		"../../out-192-broccoli_merge_trees_full_application/app/styles/components/movie-list/movie-list-item/styles.scss"
+	],
+	"sourcesContent": [
+		"@import \"pod-styles\";\n\nhtml {\n  box-sizing: border-box;\n\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 10px;\n  color: #424040;\n}\n\n*,\n*:before,\n*:after {\n  box-sizing: inherit;\n}\n\nbody {\n  font-size: 1.6rem;\n}",
+		"@import \"components/add-movie-form/styles.scss\";\n@import \"components/landing-page/styles.scss\";\n@import \"components/movie-list-header/styles.scss\";\n@import \"components/movie-list/styles.scss\";\n@import \"components/movie-list/movie-list-item/styles.scss\";\n",
+		".__add-movie-form__85279.add-movie-form {\n  color: #424040;\n\n  input,\n  button {\n    width: calc(100% - 1rem);\n    height: 4rem;\n\n    margin: 0.5rem;\n    padding: 0.5rem 1rem;\n\n    font-size: 2rem;\n\n    border: 0.2rem solid #cccccc;\n    border-radius: 0.5rem;\n\n    &:focus {\n      border: 0.2rem solid #e91c50;\n      outline: none;\n    }\n  }\n\n  button {\n    margin-top: 2rem;\n\n    background-color: #e91c50;\n    color: #ffffff;\n\n    border: none;\n    cursor: pointer;\n\n    &:hover,\n    &:focus {\n      background-color: lighten(#e91c50, 5%);\n      text-decoration: underline;\n    }\n\n    &:active {\n      background-color: darken(#e91c50, 10%);\n    }\n  }\n}",
+		".__landing-page__52517 {\n  width: 50rem;\n  height: 80rem;\n  margin: 0 auto;\n\n  .movie-list-header {\n    margin-bottom: 3rem;\n  }\n\n  .add-movie-form {\n    margin-top: 3rem;\n  }\n}",
+		".__movie-list-header__20e8e {\n  font-size: 4.5rem;\n  padding: 1rem;\n\n  text-align: center;\n  color: #e91c50;\n}",
+		".__movie-list__2f105.movie-list {\n  height: 50rem;\n  overflow-y: auto;\n\n  list-style: none;\n\n  .movie-list-item {\n    margin: 2rem 0;\n  }\n\n  hr {\n    margin: 1rem;\n\n    border: none;\n    border-bottom: 0.1rem solid #cccccc;\n\n    &:last-child {\n      display: none;\n    }\n  }\n}",
+		".__movie-list__movie-list-item__8f13c {\n  .details > h1 {\n    color: #e91c50;\n  }\n\n  img {\n    max-width: 30rem;\n    max-height: 30rem;\n  }\n}"
+	],
+	"names": [],
+	"mappings": "AEAA,AAAA,wBAAwB,AAAA,eAAe,CAAC;EACtC,KAAK,EAAE,OAAO,GAwCf;EAzCD,AAGE,wBAHsB,AAAA,eAAe,CAGrC,KAAK;EAHP,wBAAwB,AAAA,eAAe,CAIrC,MAAM,CAAC;IACL,KAAK,EAAE,iBAAiB;IACxB,MAAM,EAAE,IAAI;IAEZ,MAAM,EAAE,MAAM;IACd,OAAO,EAAE,WAAW;IAEpB,SAAS,EAAE,IAAI;IAEf,MAAM,EAAE,oBAAoB;IAC5B,aAAa,EAAE,MAAM,GAMtB;IApBH,AAgBI,wBAhBoB,AAAA,eAAe,CAGrC,KAAK,AAaF,MAAM;IAhBX,wBAAwB,AAAA,eAAe,CAIrC,MAAM,AAYH,MAAM,CAAC;MACN,MAAM,EAAE,oBAAoB;MAC5B,OAAO,EAAE,IAAI,GACd;EAnBL,AAsBE,wBAtBsB,AAAA,eAAe,CAsBrC,MAAM,CAAC;IACL,UAAU,EAAE,IAAI;IAEhB,gBAAgB,EAAE,OAAO;IACzB,KAAK,EAAE,OAAO;IAEd,MAAM,EAAE,IAAI;IACZ,MAAM,EAAE,OAAO,GAWhB;IAxCH,AA+BI,wBA/BoB,AAAA,eAAe,CAsBrC,MAAM,AASH,MAAM,EA/BX,wBAAwB,AAAA,eAAe,CAsBrC,MAAM,AAUH,MAAM,CAAC;MACN,gBAAgB,EAAE,OAAoB;MACtC,eAAe,EAAE,SAAS,GAC3B;IAnCL,AAqCI,wBArCoB,AAAA,eAAe,CAsBrC,MAAM,AAeH,OAAO,CAAC;MACP,gBAAgB,EAAE,OAAoB,GACvC;;ACvCL,AAAA,sBAAsB,CAAC;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,MAAM,GASf;EAZD,AAKE,sBALoB,CAKpB,kBAAkB,CAAC;IACjB,aAAa,EAAE,IAAI,GACpB;EAPH,AASE,sBAToB,CASpB,eAAe,CAAC;IACd,UAAU,EAAE,IAAI,GACjB;;ACXH,AAAA,2BAA2B,CAAC;EAC1B,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,IAAI;EAEb,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO,GACf;;ACND,AAAA,oBAAoB,AAAA,WAAW,CAAC;EAC9B,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,IAAI;EAEhB,UAAU,EAAE,IAAI,GAgBjB;EApBD,AAME,oBANkB,AAAA,WAAW,CAM7B,gBAAgB,CAAC;IACf,MAAM,EAAE,MAAM,GACf;EARH,AAUE,oBAVkB,AAAA,WAAW,CAU7B,EAAE,CAAC;IACD,MAAM,EAAE,IAAI;IAEZ,MAAM,EAAE,IAAI;IACZ,aAAa,EAAE,oBAAoB,GAKpC;IAnBH,AAgBI,oBAhBgB,AAAA,WAAW,CAU7B,EAAE,AAMC,WAAW,CAAC;MACX,OAAO,EAAE,IAAI,GACd;;AClBL,AACE,qCADmC,CACnC,QAAQ,GAAG,EAAE,CAAC;EACZ,KAAK,EAAE,OAAO,GACf;;AAHH,AAKE,qCALmC,CAKnC,GAAG,CAAC;EACF,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,KAAK,GAClB;;ANNH,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,UAAU;EAEtB,WAAW,EAAE,4BAA4B;EACzC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO,GACf;;AAED,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,MAAM,CAAC;EACN,UAAU,EAAE,OAAO,GACpB;;AAED,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,MAAM,GAClB"
+}

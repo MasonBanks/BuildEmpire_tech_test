@@ -12,6 +12,6 @@ module('Integration | Component | movie-list-header', function(hooks) {
 
     await render(hbs`{{movie-list-header}}`);
 
-    assert.ok(this.$().length)
+    assert.ok(this.element.length)
   });
 });
