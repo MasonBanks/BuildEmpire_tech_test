@@ -42,7 +42,7 @@
     "ember-source": "~3.1.0",
     "ember-welcome-page": "^3.0.0",
     "emberfire": "^3.0.0-rc.3",
-    "eslint": "^6.4.0",
+    "eslint": "^10.1.0",
     "eslint-plugin-ember": "^5.0.0",
     "loader.js": "^4.2.3"
   },
